@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozyCore Yoga - Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("logo.jpg") no-repeat center center; /* Set the actual background image */
+            background-size: cover;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.385);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .login-box h2 {
+            color: #000000;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+            font-size: 1em;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 15px;
+            cursor: pointer;
+            color: #888;
+        }
+
+        button.login-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #444;
+            color: #fff;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+         .a1 {
+        
+            color: white;
+            text-decoration: none;
+        }
+        
+
+        button.login-button:hover {
+            background-color: #555;
+        }
+
+        .new-account {
+            color: #000000;
+            font-size: 0.9em;
+        }
+
+        .new-account a {
+            color: #090909;
+            text-decoration: underline;
+        }
+
+        .f1{
+            text-decoration: none;
+            color: #090909;
+            font-size: 0.9em;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <input type="text" name="username" id="username" placeholder="username" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" id="password" placeholder="password" required>
+                    <span class="toggle-password">👁</span>
+                    <a href="C:\Users\DELL\OneDrive\Desktop\CozyCore\forgot password.html`" class="f1">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-button"><a class="a1"href="form.html">LOGIN</a></button>
+            </form>
+            <p class="new-account">Don't have an account? <br>
+            <a href="C:\Users\DELL\OneDrive\Desktop\CozyCore\page2.html">create a new account</a></p>
+        </div>
+    </div>
+</body>
+</html>

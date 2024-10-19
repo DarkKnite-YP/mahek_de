@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozycore Yoga Registration</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("logo.jpg") no-repeat center center; /* Set the actual background image */
+            background-size: cover;
+        }
+
+        .register-container {
+            background: rgba(255, 255, 255, 0.385);
+            border-radius: 15px;
+            padding: 40px;
+            width: 400px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            outline: none;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .form-footer {
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .register-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .login-link {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <div class="register-title">Create a new account</div>
+        <div class="login-link">Already registered?<br> <a href="C:\Users\DELL\OneDrive\Desktop\CozyCore\page1.html"><b>log in here</b></a></div>
+        <form action="/register" method="post">
+            <input type="text" name="first_name" placeholder="First Name" required><br>
+            <input type="text" name="last_name" placeholder="Last Name" required><br>
+            <input type="tel" name="contact_number" placeholder="Contact Number" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required><br>
+            <a href="form.html"><input type="submit" value="REGISTER"></a>
+        </form>
+    </div>
+
+</body>
+</html>
